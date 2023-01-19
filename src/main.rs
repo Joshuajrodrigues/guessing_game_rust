@@ -5,7 +5,7 @@ use colored::*;
 fn main() {
     println!("Guessing game!");
     let secret_number = rand::thread_rng().gen_range(1, 101);
-    println!("Secrent number {}",secret_number);
+ //   println!("Secrent number {}",secret_number);
     loop {
         
         println!("Enter a number between 1 and 101: ");
